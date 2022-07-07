@@ -1,0 +1,15 @@
+{
+  "author": "Francisco Atozqui",
+  "description": "Proyecto Coder 29285",
+  "license": "MIT",
+  "name": "coder-29285",
+  "scripts": {
+    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
+    "build:css": "node-sass --output-style compressed scss/main.scss css/style.css"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.18"
+  }
+}

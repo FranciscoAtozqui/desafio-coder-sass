@@ -1,0 +1,28 @@
+.button {
+    color: #BADA55;
+    background-color: #476b6b;
+    border-radius: 10px;
+    border: 2px inset #BADA55;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 15px;
+
+    &:hover {
+        background-color: #ff7733;
+        color: #000;
+        transition: 0.5s;
+    }
+}
+
+.inicio-icon {
+    font-size: 2.5rem;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+
+    &:hover {
+        color: #476b6b;
+        transition: .4s;
+    }
+}

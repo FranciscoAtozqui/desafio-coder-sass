@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <script src="../js/jquery-3.2.1.slim.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <script src="https://kit.fontawesome.com/2570a04222.js"></script>
+    <script src="../js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <title>Formulario de Inscripcion</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <h2>Academia <span class="span__titulo">Tac</span> Tenis</h2>
+            <ul class="menu__items nav justify-content-center">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="../pages/niveles.html">Niveles</a></li>
+                <li><a href="../pages/prueba.html">Clases de Prueba</a></li>
+                <li><a href="../pages/contacto.html">Inscribirme</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="bg-img">
+            <section id="inscribirme__inicio">
+                <h1 class="inscribirme__titulo text-uppercase text-center">Inscribite!</h1>
+            </section>
+
+            <section id="inscribirme" class="container">
+                <h3 class="text-center text-uppercase m-5">Complete el siguiente formulario de inscripción!</h3>
+                <div class="form__container d-flex justify-content-center">
+                    <form action="#" method="get">
+                        <div class="form-group row">
+                            <label for="inputName3" class="col-12 col-sm-6 col-md-6 col-form-label">Nombre</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputName3" placeholder="Nombre" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="inputName3" class="col-12 col-sm-6 col-md-6 col-form-label">Apellido</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputName3" placeholder="Apellido" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="inputEmail3" class="col-12 col-sm-6 col-md-6 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="inputPhone3" class="col-12 col-sm-6 col-md-6 col-form-label">Teléfono</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputPhone3" placeholder="Teléfono" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-12 col-sm-6 col-md-6 offset-sm-2 d-flex justify-content-center mt-5">
+                                <button type="submit" class="btn button">Inscribirse</button>
+                                <button type="reset" class="btn button">Resetear Formulario</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="contacto-footer">
+        <h3>Contactanos!</h3>
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+    </footer>
+</body>
+
+</html>
